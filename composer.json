@@ -1,0 +1,19 @@
+{
+    "name": "syahrul/composer-library",
+    "description": "PHP Composer Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "arul-25",
+            "email": "arulprojectdualima@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0 <8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArulProject\\" : "src/"
+        }
+    }
+}
